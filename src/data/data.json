@@ -1,0 +1,124 @@
+[
+    {
+        "id": 1,
+        "titulo": "Camiseta Rosario Central",
+        "marca" :"Lecoq Sportif",
+        "imagen": "https://camisetasnani.com.ar/wp-content/uploads/2022/11/WhatsApp-Image-2022-11-22-at-2.41.35-PM-14.jpeg",
+        "año": "1995",
+        "precio": "$30.000 ",
+        "categoria": "Titular",
+        "descripcion": "Esta camiseta fue utilizada por jugadores tales como Omar Palma, Horacio Carbonari, Marcelo Carracedo "
+    },
+    {
+        "id": 2,
+        "titulo": "Camiseta Rosario Central",
+        "marca" :"Lecoq Sportif",
+        "imagen": "https://camisetasnani.com.ar/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-12-at-15.00.44.jpeg",
+        "año": "1997",
+        "precio": "$45.000",
+        "categoria": "Suplente",
+        "descripcion": "Esta camiseta fue utilizada por jugadores tales como Eduardo Coudet, Rubén Da Silva, Vitamina Sanchez "
+    },  
+    {
+        "id": 3,
+        "titulo": "Camiseta Rosario Central",
+        "marca" :"Puma",
+        "imagen": "https://i.ebayimg.com/images/g/4RMAAOSwVdJj8-jc/s-l500.jpg",
+        "año": "2002",
+        "precio": "$38.000",
+        "categoria": "Titular",
+        "descripcion": "Esta camiseta fue utilizada por jugadores tales como Luciano Figueroa, Cesar Delgado, Loncho Ferrari "
+    },
+    {
+        "id": 4,
+        "titulo": "Camiseta Rosario Central",
+        "marca" :"Puma",
+        "imagen": "https://pbs.twimg.com/media/EnIgFg1XUAE5MPV?format=jpg&name=medium",
+        "año": "2001",
+        "precio": "$25.000",
+        "categoria": "Suplente",
+        "descripcion": "Esta camiseta fue utilizada por jugadores tales como Ezequiel Gonzalez, Matias Lequi, Juan Antonio Pizzi "
+    },
+    {
+        "id": 5,
+        "titulo": "Camiseta Rosario Central",
+        "marca" :"Nike",
+        "imagen": "https://marcadegol.com/fotos//2016/02/camiseta-suplente-nike-de-rosario-central-2016-1.png",
+        "año": "2016",
+        "precio": "$35.000",
+        "categoria": "Suplente",
+        "descripcion": "Esta camiseta fue utilizada por jugadores tales como Giovani Lo celso, Franco Cervi, Damian Musto"
+    },
+    {
+        "id": 6,
+        "titulo": "Camiseta Rosario Central",
+        "marca" :"Nike",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_707195-MLA29984638477_042019-F.webp",
+        "año": "2018",
+        "precio": "$50.000",
+        "categoria": "Titular",
+        "descripcion": "Esta camiseta fue utilizada por jugadores tales como Marco Ruben, Germán Herrera, Federico Carrizo "
+    },
+    {
+        "id": 7,
+        "titulo": "Short Rosario Central",
+        "marca" :"Lecoq Sportif",
+        "imagen": "data:image/jpeg;base64,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",
+        "año": "1995",
+        "precio": "$15.000",
+        "categoria": "Shorts",
+        "descripcion": "Short utilizado por Rubén Da Silva"
+    },
+    {
+        "id": 8,
+        "titulo": "Short Rosario Central",
+        "marca" :"Under Armour",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_704133-MLA54490939810_032023-F.webp",
+        "año": "2021",
+        "precio": "$35.000",
+        "categoria": "Shorts",
+        "descripcion": "Short de arquero Jorge Broun #19"
+    },
+    {
+        "id": 9,
+        "titulo": "Short Rosario Central",
+        "marca" :"Nike",
+        "imagen": "https://www.digitalsport.com.ar/files/products/5c5edfdf783d2-489157-500x500.jpg",
+        "año": "2017",
+        "precio": "$35.000",
+        "categoria": "Shorts",
+        "descripcion": "Short blanco "
+    },
+    {
+        "id": 10,
+        "titulo": "Short Rosario Central",
+        "marca" :"Under Armour",
+        "imagen": "https://www.digitalsport.com.ar/files/products/5c8f85f8edc34-483221-280x280.jpg",
+        "año": "2019",
+        "precio": "$35.000",
+        "categoria": "Shorts",
+        "descripcion": "Short Under ARmour"
+    },
+    {
+        "id": 11,
+        "titulo": "Short Rosario Central",
+        "marca" :"Umbro",
+        "imagen": "https://media.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/s/h/short-de-rosario-central-umbro-tercer-recambio-azul-7550231r1115778-1.jpg",
+        "año": "2021",
+        "precio": "$15.000",
+        "categoria": "Shorts",
+        "descripcion": "Short Umbro tercer uniforme"
+    },
+    {
+        "id": 12,
+        "titulo": "Short Rosario Central",
+        "marca" :"Nike",
+        "imagen": "https://tiendael10futbol.com/wp-content/uploads/2022/10/ROSARIO-CENTRAL-SHORT-NIKE-GDE-.jpeg",
+        "año": "2016",
+        "precio": "$25.000",
+        "categoria": "Shorts",
+        "descripcion": "Short Nike arquero Jeremias Ledesma #30"
+    }
+
+
+]
