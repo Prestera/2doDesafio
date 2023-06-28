@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/2doDesafio/static/css/main.b9c5a107.css",
+    "main.js": "/2doDesafio/static/js/main.9aae3c0b.js",
+    "static/media/escudo.png": "/2doDesafio/static/media/escudo.be4d6c8de6e99a84ec4b.png",
+    "index.html": "/2doDesafio/index.html",
+    "main.b9c5a107.css.map": "/2doDesafio/static/css/main.b9c5a107.css.map",
+    "main.9aae3c0b.js.map": "/2doDesafio/static/js/main.9aae3c0b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9c5a107.css",
+    "static/js/main.9aae3c0b.js"
+  ]
+}
