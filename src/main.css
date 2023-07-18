@@ -7,7 +7,7 @@
 }
 
 :root {
-    --clr-main: #efdc0dbd;
+    --clr-main: rgb(243, 221, 27);
     --clr-main-light: #040236;
 }
 
@@ -26,8 +26,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(17, 50, 80, 0.632);
-    border-bottom: 3px solid rgb(0, 0, 0);
+    background-color: rgba(9, 19, 94, 0.817);
+    border-bottom: 3px solid rgb(243, 221, 27);
+}
+
+.somos{
+    text-align: center;
+    color: rgb(243, 221, 27);
 }
 
 .logo {
@@ -44,13 +49,14 @@
 
 .menu-link {
     text-decoration: none;
-    color: black;
+    color: rgb(243, 221, 27);
     font-size: 1.2rem;
 }
 
 .menu-link:hover {
     text-decoration: underline;
 }
+
 .productos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -77,13 +83,14 @@
 
 .producto > img {
     width: 100%;
-    object-fit: cover;   
+    object-fit: cover;  
+    height: 350px; 
 }
 
 .producto .ver-mas {
     text-decoration: none;
     background-color: var(--clr-main);
-    color: white;
+    color: rgb(13, 8, 88);
     padding: .5rem;
     width: max-content;
     border-radius: .5rem;
@@ -91,8 +98,8 @@
 }
 
 .producto .ver-mas:hover {
-    background-color: black;
-    color: white;
+    background-color: rgba(17, 50, 80, 0.632);
+    color: rgb(243, 221, 27);
 }
 
 .producto-detalle {
@@ -109,3 +116,50 @@
 .producto-detalle-info h3 {
     font-size: 2rem;
 }
+
+
+
+.item-count {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.item-count button, .agregar-al-carrito, .enviar {
+    background-color:  rgb(243, 221, 27) ;
+    border: 0;
+    width: 2rem;
+    height: 2rem;
+    color: rgba(10, 2, 37, 0.79);
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+    border: 2px solid var(--clr-main);
+    transition: .2s;
+}
+
+.item-count button:hover, .agregar-al-carrito:hover, .enviar:hover {
+    background-color: rgba(17, 50, 80, 0.632);
+    color: rgb(243, 221, 27);
+}
+
+.agregar-al-carrito, .enviar {
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.img-carrito {
+    width: 150px;
+    object-fit: contain;  
+    height: 150px; 
+
+}
+
