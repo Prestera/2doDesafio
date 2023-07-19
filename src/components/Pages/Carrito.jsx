@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { CartContext } from "../../Context/CartContext"
 
 
@@ -21,7 +21,7 @@ const Carrito = () => {
               <br />
               
               <h3>{prod.titulo}</h3>
-              <><img className="img-carrito" src={prod.imagen} alt={prod.titulo}/> </>
+              <><img className="img-carrito" src={prod.img} alt={prod.titulo}/> </>
               <p>Precio Unidad:$ {prod.precio} </p>
               <p>Cantidad: {prod.cantidad}</p>
               <p>SubTotal:$ {prod.precio * prod.cantidad}</p>
@@ -31,7 +31,9 @@ const Carrito = () => {
         {
           carrito.length > 0 ?
           <> <h2>Precio Final: ${precioTotal()}</h2>
+           
           <button className="agregar-al-carrito" onClick={handleVaciar}>Vaciar Carrito</button>
+           <button className="finalizar-compra" > <Link to="/checkout">Finalizar compra</Link></button>
           </> :
           <h2>El carrito está vacio</h2>
         }
