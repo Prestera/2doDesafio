@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.ecc70f84.css",
-    "main.js": "/static/js/main.1e59e4b5.js",
-    "static/media/escudo.png": "/static/media/escudo.be4d6c8de6e99a84ec4b.png",
-    "index.html": "/index.html",
-    "main.ecc70f84.css.map": "/static/css/main.ecc70f84.css.map",
-    "main.1e59e4b5.js.map": "/static/js/main.1e59e4b5.js.map"
+    "main.css": "/DesafioFinal/static/css/main.ecc70f84.css",
+    "main.js": "/DesafioFinal/static/js/main.85f18c69.js",
+    "static/media/escudo.png": "/DesafioFinal/static/media/escudo.be4d6c8de6e99a84ec4b.png",
+    "index.html": "/DesafioFinal/index.html",
+    "main.ecc70f84.css.map": "/DesafioFinal/static/css/main.ecc70f84.css.map",
+    "main.85f18c69.js.map": "/DesafioFinal/static/js/main.85f18c69.js.map"
   },
   "entrypoints": [
     "static/css/main.ecc70f84.css",
-    "static/js/main.1e59e4b5.js"
+    "static/js/main.85f18c69.js"
   ]
 }
